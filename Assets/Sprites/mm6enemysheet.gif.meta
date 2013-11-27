@@ -1,0 +1,4428 @@
+fileFormatVersion: 2
+guid: c5f7ce2923ff1b34593d4b25dac5beea
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 8
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mm6enemysheet_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1453
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1453
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1453
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1453
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1454
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1452
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1452
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1452
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_8
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1471
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1471
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1453
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1453
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1452
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1457
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1452
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_15
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1452
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_16
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1452
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1452
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_18
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1452
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_19
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1452
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_20
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1452
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_21
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1452
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1417
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_23
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1417
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1419
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1419
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1419
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_27
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1417
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1417
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1417
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_30
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1417
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1417
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1417
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_33
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1417
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1417
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_35
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1417
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_36
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1419
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1416
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1416
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_39
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1416
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_40
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1411
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_41
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1411
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_42
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1411
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_43
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1411
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_44
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1411
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_45
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1411
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_46
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1411
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_47
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1411
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_48
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1411
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_49
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1411
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_50
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1411
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1366
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_52
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1366
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_53
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1366
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_54
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1366
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1366
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_56
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1366
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_57
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1366
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_58
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1366
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_59
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1365
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1378
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_61
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1366
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1366
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_63
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1366
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_64
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1366
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1366
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_66
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1366
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_67
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1366
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_68
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1366
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_69
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1365
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_70
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1378
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1325
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_72
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1325
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_73
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1325
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_74
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1325
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_75
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1325
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1325
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_77
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1325
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_78
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1325
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_79
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1324
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_80
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1337
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_81
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1324
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_82
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1324
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_83
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1324
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_84
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1324
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_85
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1324
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_86
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1344
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_87
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1343
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_88
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1338
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1277
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_90
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1277
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1277
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_92
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1277
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_93
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1277
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_94
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1277
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_95
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1277
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_96
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1280
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_97
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1279
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_98
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1279
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_99
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1279
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_100
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1279
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_101
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1279
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_102
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1279
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_103
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1279
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_104
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1279
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_105
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1279
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_106
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1279
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_107
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1279
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_108
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1279
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_109
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1279
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_110
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1229
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_111
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1229
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_112
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1229
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_113
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1244
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_114
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1229
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_115
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1231
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_116
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1231
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_117
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1229
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_118
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1232
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_119
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1232
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_120
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1232
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_121
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1233
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_122
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1233
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_123
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1233
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_124
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1233
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_125
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1233
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_126
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1250
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_127
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1250
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_128
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1250
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_129
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1233
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_130
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1233
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_131
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1233
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_132
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1161
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_133
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1161
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_134
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1161
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_135
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1161
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_136
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1161
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_137
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1161
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_138
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1161
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_139
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1193
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_140
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1193
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_141
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1190
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_142
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_143
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1187
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_144
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1193
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_145
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1190
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_146
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1193
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_147
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1161
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_148
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1169
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_149
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1169
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_150
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1166
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_151
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1166
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_152
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1165
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_153
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1165
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_154
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1166
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_155
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1166
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_156
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1105
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_157
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1105
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_158
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1105
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_159
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1105
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_160
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1105
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_161
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1105
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_162
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1130
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_163
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1105
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_164
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1105
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_165
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1105
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_166
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1105
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_167
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1115
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_168
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1105
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_169
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1105
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_170
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1105
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_171
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1105
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_172
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1105
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_173
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1105
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_174
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1105
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_175
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1105
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_176
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1105
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_177
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1061
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_178
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1061
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_179
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1061
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_180
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1061
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_181
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1061
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_182
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1061
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_183
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1061
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_184
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1061
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_185
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1061
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_186
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1061
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1061
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_188
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1061
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_189
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1061
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_190
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1061
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_191
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1061
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_192
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1061
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_193
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1061
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_194
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1061
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_195
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1061
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_196
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1076
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_197
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1085
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_198
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1005
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_199
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1005
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_200
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1006
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_201
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1005
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_202
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1005
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_203
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1031
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_204
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1005
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_205
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1005
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_206
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1005
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_207
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1003
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_208
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1003
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_209
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1003
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_210
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1005
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_211
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1005
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_212
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1005
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_213
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1005
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_214
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1005
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_215
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1005
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_216
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1005
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_217
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1005
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_218
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1005
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_219
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1005
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_220
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1021
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_221
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1019
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_222
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1021
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_223
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 958
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_224
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 955
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_225
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 955
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_226
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 971
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_227
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 955
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_228
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 955
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_229
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 955
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_230
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 955
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_231
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 955
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_232
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 955
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_233
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 955
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_234
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 955
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_235
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 955
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_236
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 955
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_237
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 955
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_238
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 955
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_239
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 977
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_240
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 955
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_241
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 955
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_242
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 955
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_243
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 967
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_244
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 967
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_245
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 962
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_246
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 964
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_247
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 961
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_248
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 961
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_249
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 961
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_250
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 961
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_251
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 955
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_252
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 882
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_253
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 882
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_254
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 882
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_255
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 882
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_256
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 914
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_257
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 913
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_258
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 913
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_259
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 910
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_260
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 910
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_261
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 907
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_262
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 907
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_263
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 905
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_264
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 905
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_265
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 905
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_266
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 905
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_267
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 905
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_268
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 905
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_269
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 905
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_270
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 905
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_271
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 882
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_272
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 882
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_273
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 882
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_274
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 882
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_275
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 889
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_276
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 833
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_277
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 833
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_278
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 833
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_279
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 833
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_280
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 831
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_281
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 831
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_282
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 831
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_283
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 831
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_284
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 831
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_285
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 831
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_286
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 821
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_287
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 821
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_288
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 859
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_289
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 856
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_290
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 837
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_291
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 837
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_292
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 834
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_293
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 821
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_294
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 821
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_295
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 779
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_296
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 779
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_297
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 779
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_298
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 779
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_299
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 779
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_300
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 779
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_301
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 779
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_302
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 779
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_303
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 779
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_304
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 779
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_305
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 779
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_306
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 779
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_307
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 779
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_308
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 779
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_309
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 779
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_310
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 779
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_311
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 779
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_312
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 779
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_313
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 777
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_314
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 777
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_315
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 777
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_316
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 781
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_317
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 781
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_318
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 781
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_319
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 780
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_320
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 723
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_321
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 723
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_322
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 726
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_323
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 726
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_324
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 732
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_325
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 732
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_326
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 732
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_327
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 732
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_328
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 722
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_329
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 722
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_330
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 722
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_331
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 722
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_332
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 722
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_333
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 723
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_334
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 722
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_335
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 722
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_336
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 722
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_337
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 741
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_338
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 741
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_339
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 729
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_340
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 662
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_341
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 662
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_342
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 662
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_343
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 662
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_344
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 662
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_345
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 662
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_346
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 662
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_347
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 662
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_348
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 665
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_349
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 663
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_350
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 615
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_351
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 615
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_352
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 617
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_353
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 617
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_354
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 615
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_355
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 615
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_356
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 615
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_357
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 615
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_358
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 615
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_359
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 624
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_360
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 624
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_361
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 628
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_362
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 628
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_363
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 624
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_364
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 624
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_365
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 557
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_366
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 557
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_367
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 557
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_368
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 557
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_369
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 557
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_370
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 557
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_371
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 557
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_372
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 557
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_373
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 557
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_374
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 557
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_375
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 557
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_376
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 557
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_377
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 557
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_378
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 557
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_379
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 442
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_380
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 442
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_381
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 442
+        width: 86
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_382
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 442
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_383
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 442
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_384
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 442
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_385
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 442
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_386
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 487
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_387
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 487
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_388
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 469
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_389
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 401
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_390
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 350
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_391
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 350
+        width: 91
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_392
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 350
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_393
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 350
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_394
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 350
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_395
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 348
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_396
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 255
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_397
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_398
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 254
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_399
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 312
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_400
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 222
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_401
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 226
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_402
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 283
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_403
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 257
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_404
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 178
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_405
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 178
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_406
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 178
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_407
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 178
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_408
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 178
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_409
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 178
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_410
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 178
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_411
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 178
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_412
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 178
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_413
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 178
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_414
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 178
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_415
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 179
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_416
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_417
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 179
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_418
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 179
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_419
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 179
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_420
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 179
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_421
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 204
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_422
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 179
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_423
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 147
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_424
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 147
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_425
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_426
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 147
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_427
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 147
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_428
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_429
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 147
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_430
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 147
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_431
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_432
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 147
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_433
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 147
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_434
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 147
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_435
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 101
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_436
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 101
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_437
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 101
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_438
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 101
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_439
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 101
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_440
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 101
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_441
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 101
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_442
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 101
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_443
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 101
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_444
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 99
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_445
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 99
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_446
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 99
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_447
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 99
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_448
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 106
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_449
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 106
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_450
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 92
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_451
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 86
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_452
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 92
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_453
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 106
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_454
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 106
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_455
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 47
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_456
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 41
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_457
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 41
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_458
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 44
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_459
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 52
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_460
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 44
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_461
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 41
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_462
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 41
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_463
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 57
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_464
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 52
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_465
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 63
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_466
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 57
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_467
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 57
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_468
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 57
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_469
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 57
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_470
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 52
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_471
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_472
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_473
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_474
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_475
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_476
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_477
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_478
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 13
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_479
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_480
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_481
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 13
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_482
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 13
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_483
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 7
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_484
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 4
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_485
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 4
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mm6enemysheet_486
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 4
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
