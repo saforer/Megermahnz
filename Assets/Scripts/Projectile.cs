@@ -2,10 +2,18 @@
 using System.Collections;
 
 public class Projectile : MonoBehaviour {
-    public int owner;
+    public string owner;
+    public int projectilespeed;
+    public bool FacingRight;
+    public int Direction;
 	// Use this for initialization
 	void Start () {
-	
+        if (FacingRight){
+            Direction=1;
+        }else{
+            Direction=-1;
+        }
+        rigidbody2D.AddForce (transform.right*projectilespeed*Direction);
 	}
 	
 	// Update is called once per frame
@@ -13,17 +21,20 @@ public class Projectile : MonoBehaviour {
 	
 	}
 
+
+
     void OnCollisionEnter2D (Collision2D col) {
-        if (owner==1) {
-            if (col.collider.tag=="Player") {
+        if (col.collider.tag=="Player") {
+            if (owner == "Enemy") {
                 col.collider.gameObject.GetComponent<Hitpoints>().Hurt(1);
-                Destroy (gameObject);
             }
-        } else if (owner==2) {
-            if (col.collider.tag=="Enemy") {
+                Destroy (gameObject);
+        } 
+        if (col.collider.tag=="Enemy") {
+            if (owner == "Player") {
                 col.collider.gameObject.GetComponent<Hitpoints>().Hurt(1);
-                Destroy (gameObject);
             }
+            Destroy (gameObject);
         }
         if(col.collider.tag == "Ground") {
             Destroy (gameObject);

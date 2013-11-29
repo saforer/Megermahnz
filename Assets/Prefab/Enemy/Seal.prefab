@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,14 +24,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 212: {fileID: 21200000}
-  - 61: {fileID: 6100000}
-  - 50: {fileID: 5000000}
-  - 95: {fileID: 9500000}
-  - 114: {fileID: 11400006}
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
-  m_Layer: 10
+  - 61: {fileID: 6100000}
+  - 50: {fileID: 5000000}
+  - 95: {fileID: 9500000}
+  m_Layer: 0
   m_Name: Seal
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -45,7 +44,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.92958927, y: .783125877, z: -.5}
+  m_LocalPosition: {x: -.883042812, y: .163500071, z: -.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400002}
@@ -56,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.7084808, y: -99.7178879, z: .5}
+  m_LocalPosition: {x: 8.75, y: -3.5, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -67,7 +66,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Mass: 100
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
@@ -85,8 +84,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 4.67999983, y: 4.05000019}
-  m_Center: {x: 0, y: .0599999987}
+  m_Size: {x: 2.5, y: 2}
+  m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -96,10 +95,10 @@ Animator:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ee75b4ce33de9354fb4c9360a87adea2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 301ee08179e4ded459450cee680e0c11, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 0
-  m_AnimatePhysics: 1
+  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -109,12 +108,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 620b90415e8372649a26924643de1f32, type: 3}
+  m_Script: {fileID: 11500000, guid: 9568789719d3b6c4caa388611738f9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShootingTimer: 0
-  ShootingCount: 120
-  anim: {fileID: 0}
+  HP: 10
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c53cd442a77e2d41a6b939d73908a80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ammunition: {fileID: 5000000, guid: 47447230af8f765488c18d895bc36437, type: 2}
-  Speed: 10.9200001
+  Ammunition: {fileID: 5000000, guid: 29ec550ce2ea61b4093776bdcc6778e9, type: 2}
+  Speed: 10
   GunObject: {fileID: 400000}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -137,23 +134,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 649e70021ab41ec4da4f0b2a3348900a, type: 3}
+  m_Script: {fileID: 11500000, guid: 620b90415e8372649a26924643de1f32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  ShootingTimer: 0
+  ShootingCount: 500
   anim: {fileID: 0}
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9568789719d3b6c4caa388611738f9d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HP: 6
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -175,7 +161,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300166, guid: c5f7ce2923ff1b34593d4b25dac5beea, type: 3}
+  m_Sprite: {fileID: 21300162, guid: c5f7ce2923ff1b34593d4b25dac5beea, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

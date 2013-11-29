@@ -20,12 +20,6 @@ public class PlayerController : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetAxisRaw(axisName)>0){
-            FacingRight = true;
-        } else
-        if (Input.GetAxisRaw(axisName)<0) {
-            FacingRight = false;
-        }
 		AnimationUpdate ();
         //FIND OUT IF THE PLAYER IS GROUNDED
         grounded1 = Physics2D.Linecast(transform.position, groundCheck1.position, 1 << LayerMask.NameToLayer("Ground"));  

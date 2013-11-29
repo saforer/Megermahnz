@@ -10,16 +10,16 @@ public class Hitpoints : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+        if (HP<=0) {
+            Death ();
+        }
 	}
 
 	public void Hurt(int Damage) {
 		//Take Damage
 		HP=HP-Damage;
 		//Diecheck
-		if (HP<=0) {
-			Death ();
-		}
+
 	}
 	
 

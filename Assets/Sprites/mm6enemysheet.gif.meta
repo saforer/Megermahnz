@@ -35,7 +35,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 16
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -774,8 +774,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 377
-        y: 1324
-        width: 41
+        y: 1325
+        width: 40
         height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -783,25 +783,25 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 422
-        y: 1324
-        width: 38
+        y: 1325
+        width: 40
         height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: mm6enemysheet_83
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1324
-        width: 39
-        height: 33
+        x: 464
+        y: 1325
+        width: 40
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: mm6enemysheet_84
       rect:
         serializedVersion: 2
         x: 507
-        y: 1324
+        y: 1325
         width: 40
         height: 32
       alignment: 0
@@ -810,8 +810,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 553
-        y: 1324
-        width: 41
+        y: 1325
+        width: 40
         height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -2655,18 +2655,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 454
-        y: 837
-        width: 22
-        height: 16
+        y: 838
+        width: 21
+        height: 14
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: mm6enemysheet_291
       rect:
         serializedVersion: 2
         x: 479
-        y: 837
+        y: 838
         width: 23
-        height: 10
+        height: 8
       alignment: 0
       pivot: {x: .5, y: .5}
     - name: mm6enemysheet_292

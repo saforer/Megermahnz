@@ -17,17 +17,13 @@ public class SealAI : MonoBehaviour {
         ShootingTimer--;
         if (ShootingTimer <= 0) {
             ShootingTimer=ShootingCount;
-            anim.SetBool ("SealShooting",true);
+            anim.SetTrigger("SealShooting");
             SendMessage ("Shoot",FacingRight);
-        }
-
-        if (ShootingTimer <= 300) {
-            anim.SetBool ("SealShooting",false);
         }
 	}
 
     void DyingEffect () {
-        for (int i=0; i<10; i++) {
+        for (int i=0; i<5; i++) {
         SendMessage ("Shoot",FacingRight);
         SendMessage ("Shoot",!FacingRight);
         }
