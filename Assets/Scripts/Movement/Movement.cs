@@ -4,7 +4,7 @@ using System.Collections;
 public class Movement : MonoBehaviour {
 	public float speed;
 	public Animator anim;
-    public bool facingRight;
+    public bool facingRight=false;
 
 	// Use this for initialization
 	void Start () {

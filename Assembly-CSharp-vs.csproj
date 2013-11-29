@@ -46,16 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Camera.cs" />
-     <Compile Include="Assets\Scripts\EnemyScripts\DrillAI.cs" />
-     <Compile Include="Assets\Scripts\EnemyScripts\SealAI.cs" />
-     <Compile Include="Assets\Scripts\Gun.cs" />
-     <Compile Include="Assets\Scripts\Hitpoints.cs" />
-     <Compile Include="Assets\Scripts\Jump.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
-     <Compile Include="Assets\Scripts\PainField.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Prefab\Enemy\EnemyScripts\DrillAI.cs" />
+     <Compile Include="Assets\Prefab\Enemy\EnemyScripts\SealAI.cs" />
+     <Compile Include="Assets\Scripts\Camera\Camera.cs" />
+     <Compile Include="Assets\Scripts\Movement\Jump.cs" />
+     <Compile Include="Assets\Scripts\Movement\Movement.cs" />
+     <Compile Include="Assets\Scripts\Player Only\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Prefab\Gun.cs" />
+     <Compile Include="Assets\Scripts\Prefab\Hitpoints.cs" />
+     <Compile Include="Assets\Scripts\Prefab\PainField.cs" />
+     <Compile Include="Assets\Scripts\Prefab\Projectile.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

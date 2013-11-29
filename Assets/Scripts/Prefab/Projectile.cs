@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour {
     public int projectilespeed;
     public bool FacingRight;
     public int Direction;
+    public int Damage;
 	// Use this for initialization
 	void Start () {
         if (FacingRight){
@@ -26,15 +27,15 @@ public class Projectile : MonoBehaviour {
     void OnCollisionEnter2D (Collision2D col) {
         if (col.collider.tag=="Player") {
             if (owner == "Enemy") {
-                col.collider.gameObject.GetComponent<Hitpoints>().Hurt(1);
-            }
+                col.collider.gameObject.GetComponent<Hitpoints>().Hurt(Damage);
                 Destroy (gameObject);
+            }
         } 
         if (col.collider.tag=="Enemy") {
             if (owner == "Player") {
-                col.collider.gameObject.GetComponent<Hitpoints>().Hurt(1);
+                col.collider.gameObject.GetComponent<Hitpoints>().Hurt(Damage);
+                Destroy (gameObject);
             }
-            Destroy (gameObject);
         }
         if(col.collider.tag == "Ground") {
             Destroy (gameObject);

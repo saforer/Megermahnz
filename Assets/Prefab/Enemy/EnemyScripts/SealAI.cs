@@ -5,7 +5,6 @@ public class SealAI : MonoBehaviour {
     public int ShootingTimer = 0;   
     public int ShootingCount = 500;
     public Animator anim;
-    bool FacingRight = false;
 
 	// Use this for initialization
 	void Start () {
@@ -18,14 +17,13 @@ public class SealAI : MonoBehaviour {
         if (ShootingTimer <= 0) {
             ShootingTimer=ShootingCount;
             anim.SetTrigger("SealShooting");
-            SendMessage ("Shoot",FacingRight);
+            SendMessage ("Shoot");
         }
 	}
 
     void DyingEffect () {
         for (int i=0; i<5; i++) {
-        SendMessage ("Shoot",FacingRight);
-        SendMessage ("Shoot",!FacingRight);
+        SendMessage ("Shoot");
         }
     }
 }
