@@ -1,15 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Level.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Prefab\Projectile.cs">
     <Files>
-      <File FileName="Assets\Scripts\Level.cs" Line="59" Column="38" />
-      <File FileName="Assets\Scripts\Prefab\Gun.cs" Line="25" Column="1" />
+      <File FileName="Assets\Scripts\Prefab\Projectile.cs" Line="19" Column="93" />
+      <File FileName="Assets\Scripts\Prefab\Gun.cs" Line="21" Column="2" />
       <File FileName="Assets\Scripts\Prefab\Hitpoints.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Prefab\PainField.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Prefab\Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player Only\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Only\PlayerController.cs" Line="48" Column="1" />
       <File FileName="Assets\Scripts\Movement\Jump.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Movement\Movement.cs" Line="31" Column="14" />
+      <File FileName="Assets\Scripts\Camera\Camera.cs" Line="20" Column="65" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -20,5 +19,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Scripts\Level.cs" line="53" offsetX="598" offsetY="832" expression="_cbox" liveUpdate="False" />
+    <Watch file="Assets\Scripts\Level.cs" line="68" offsetX="614" offsetY="1072" expression="_cboxcenter" liveUpdate="False" />
+    <Watch file="Assets\Scripts\Level.cs" line="68" offsetX="614" offsetY="1072" expression="_cboxsize" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

@@ -5,7 +5,8 @@ public class Gun : MonoBehaviour {
 
 	public Rigidbody2D Ammunition;
 	public Transform GunObject;
-
+    public int Multi;
+    public bool split;
 	// Use this for initialization
 	void Start () {
 
@@ -17,8 +18,10 @@ public class Gun : MonoBehaviour {
 	}
 
 	public void Shoot() {
+ 
 		Rigidbody2D bulletInstance = Instantiate(Ammunition, GunObject.position, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
         bulletInstance.GetComponent<Projectile>().SetFacingRight(GetComponent<Movement>().facingRight);
         bulletInstance.GetComponent<Projectile>().SetOwnerTag(gameObject.tag);
-	}
+
+    }
 }
