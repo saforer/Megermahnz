@@ -2,11 +2,11 @@
 using System.Collections;
 
 public class PainField : MonoBehaviour {
-    public string owner;
+    string ownertag;
     public int Damage;
 	// Use this for initialization
 	void Start () {
-	
+        ownertag = gameObject.tag;
 	}
 	
 	// Update is called once per frame
@@ -16,12 +16,12 @@ public class PainField : MonoBehaviour {
 
     void OnCollisionStay2D (Collision2D col) {
         if (col.collider.tag=="Player") {
-            if (owner == "Enemy") {
+            if (ownertag == "Enemy") {
                 col.collider.gameObject.GetComponent<Hitpoints>().Hurt(Damage);
             }
         } 
         if (col.collider.tag=="Enemy") {
-            if (owner == "Player") {
+            if (ownertag == "Player") {
                 col.collider.gameObject.GetComponent<Hitpoints>().Hurt(Damage);
             }
         }

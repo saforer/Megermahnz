@@ -2,19 +2,15 @@
 using System.Collections;
 
 public class Projectile : MonoBehaviour {
-    public string owner;
+    private string _ownertag;
     public int projectilespeed;
-    public bool FacingRight;
-    public int Direction;
+    private bool _FacingRight;
+    int Direction;
     public int Damage;
 	// Use this for initialization
 	void Start () {
-        if (FacingRight){
-            Direction=1;
-        }else{
-            Direction=-1;
-        }
-        rigidbody2D.AddForce (transform.right*projectilespeed*Direction);
+        Direction = (_FacingRight) ? 1 : -1;
+        rigidbody2D.velocity = transform.right*projectilespeed*Direction;
 	}
 	
 	// Update is called once per frame
@@ -25,14 +21,14 @@ public class Projectile : MonoBehaviour {
 
 
     void OnCollisionEnter2D (Collision2D col) {
-        if (col.collider.tag=="Player") {
-            if (owner == "Enemy") {
+        if (col.gameObject.CompareTag("Player")) {
+            if (_ownertag == "Enemy") {
                 col.collider.gameObject.GetComponent<Hitpoints>().Hurt(Damage);
                 Destroy (gameObject);
             }
         } 
-        if (col.collider.tag=="Enemy") {
-            if (owner == "Player") {
+        if (col.gameObject.CompareTag("Enemy")) {
+            if (_ownertag == "Player") {
                 col.collider.gameObject.GetComponent<Hitpoints>().Hurt(Damage);
                 Destroy (gameObject);
             }
@@ -41,4 +37,13 @@ public class Projectile : MonoBehaviour {
             Destroy (gameObject);
         }
     }
+
+    public void SetFacingRight (bool FacingRight) {
+        _FacingRight = FacingRight;
+    }
+
+    public void SetOwnerTag (string ownertag) {
+        _ownertag = ownertag;
+    }
+
 }

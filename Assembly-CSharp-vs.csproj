@@ -49,6 +49,7 @@
      <Compile Include="Assets\Prefab\Enemy\EnemyScripts\DrillAI.cs" />
      <Compile Include="Assets\Prefab\Enemy\EnemyScripts\SealAI.cs" />
      <Compile Include="Assets\Scripts\Camera\Camera.cs" />
+     <Compile Include="Assets\Scripts\Level.cs" />
      <Compile Include="Assets\Scripts\Movement\Jump.cs" />
      <Compile Include="Assets\Scripts\Movement\Movement.cs" />
      <Compile Include="Assets\Scripts\Player Only\PlayerController.cs" />
@@ -56,6 +57,12 @@
      <Compile Include="Assets\Scripts\Prefab\Hitpoints.cs" />
      <Compile Include="Assets\Scripts\Prefab\PainField.cs" />
      <Compile Include="Assets\Scripts\Prefab\Projectile.cs" />
+     <None Include="Assets\Sprites\Levels\Level1\untitled.txt" />
+     <None Include="Assets\Sprites\Levels\Demolevel\Demo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{D39C4360-E15B-54A0-2A6F-814EE133723A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

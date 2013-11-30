@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74a7df2e3ad8cf48a85ea278abf4d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  owner: Enemy
+  ownertag: 
   projectilespeed: 20
   FacingRight: 0
   Direction: 0

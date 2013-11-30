@@ -1,18 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PainField.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Level.cs">
     <Files>
-      <File FileName="Assets\Scripts\Gun.cs" Line="22" Column="5" />
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="8" Column="22" />
-      <File FileName="Assets\Scripts\Movement.cs" Line="7" Column="29" />
-      <File FileName="Assets\Scripts\Jump.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Projectile.cs" Line="41" Column="10" />
-      <File FileName="Assets\Scripts\Hitpoints.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyScripts\SealAI.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PainField.cs" Line="16" Column="25" />
-      <File FileName="Assets\Scripts\EnemyScripts\DrillAI.cs" Line="1" Column="19" />
-      <File FileName="..\Demo\Assets\Scripts\PlayerControl.cs" Line="99" Column="20" />
+      <File FileName="Assets\Scripts\Level.cs" Line="59" Column="38" />
+      <File FileName="Assets\Scripts\Prefab\Gun.cs" Line="25" Column="1" />
+      <File FileName="Assets\Scripts\Prefab\Hitpoints.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Prefab\PainField.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Prefab\Projectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Only\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Movement\Jump.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Movement\Movement.cs" Line="31" Column="14" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

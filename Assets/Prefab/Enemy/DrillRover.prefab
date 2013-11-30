@@ -57,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.315732, y: -3.5, z: -1.5}
+  m_LocalPosition: {x: 7.84721613, y: 1.09910393, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f240ec6db3b024392aaf8e16cb41a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  owner: 1
+  Damage: 3
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -162,6 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 3
+  Hitstun: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Gun : MonoBehaviour {
@@ -18,7 +18,7 @@ public class Gun : MonoBehaviour {
 
 	public void Shoot() {
 		Rigidbody2D bulletInstance = Instantiate(Ammunition, GunObject.position, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
-        bulletInstance.GetComponent<Projectile>().FacingRight = GetComponent<Movement>().facingRight;
-        Debug.Log ("bang");
+        bulletInstance.GetComponent<Projectile>().SetFacingRight(GetComponent<Movement>().facingRight);
+        bulletInstance.GetComponent<Projectile>().SetOwnerTag(gameObject.tag);
 	}
 }
