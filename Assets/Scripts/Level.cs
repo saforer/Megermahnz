@@ -9,6 +9,7 @@ public class Level : MonoBehaviour {
     public string roomName;
     public Vector2 MinimapRoomCoordinates;
     public Transform CubeCol;
+    public Transform LadderCol;
     public string roomFile;
     public TextAsset dataAsset;
     public List<BoxCollider2D> collisionBoxList = new List<BoxCollider2D>();
@@ -74,6 +75,26 @@ public class Level : MonoBehaviour {
                         coll.center = new Vector3(coll.size.x/2, -1*(coll.size.y/2),0);
                         _cbox.layer=10;
                         _cbox.tag="Ground";
+                    }
+
+                    if (objHash["type"].ToString().ToUpper().Equals("LADDER"))
+                    {
+                        GameObject _cbox = new GameObject(objHash["name"].ToString());
+                        _cbox.transform.localScale = new Vector3(1.0f/16.0f,1.0f/16.0f,0);
+                        var coll = _cbox.AddComponent("BoxCollider2D") as BoxCollider2D;
+                        Vector3 _cboxcenter = new Vector3(0,0,0);
+                        Vector3 _cboxsize = new Vector3(0,0,0);
+                        _cboxcenter.x = int.Parse(objHash["x"].ToString()) - (GetRoomWidth() / 2);
+                        _cboxcenter.y = int.Parse(objHash["y"].ToString()) - (GetRoomWidth() / 2);
+                        _cboxsize.x = int.Parse(objHash["width"].ToString());
+                        _cboxsize.y = int.Parse(objHash["height"].ToString());
+                        _cboxcenter.y = _cboxcenter.y - _cboxsize.y;
+                        coll.size = _cboxsize;
+                        _cbox.transform.position = new Vector3(int.Parse(objHash["x"].ToString()),-int.Parse(objHash["y"].ToString()),0)*(1.0f/16.0f);
+                        coll.center = new Vector3(coll.size.x/2, -1*(coll.size.y/2),0);
+                        coll.isTrigger=true;
+                        _cbox.layer=11;
+                        _cbox.tag="Ladder";
                     }
                 }
             }

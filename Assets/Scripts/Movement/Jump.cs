@@ -24,9 +24,11 @@ public class Jump : MonoBehaviour {
 	public void StopJump() {
         if (jumped) {
             Vector2 CurrentVelocity = rigidbody2D.velocity;
-            CurrentVelocity.y *= .5f;
-            rigidbody2D.velocity = CurrentVelocity;
-            jumped = false;
+            if(CurrentVelocity.y>0){
+                CurrentVelocity.y *= .5f;
+                rigidbody2D.velocity = CurrentVelocity;
+                jumped = false;
+            }
         }
 
 	}

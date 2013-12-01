@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Projectile : MonoBehaviour {
@@ -7,23 +7,29 @@ public class Projectile : MonoBehaviour {
     private bool _FacingRight;
     int Direction;
     public int Damage;
-    public bool bouncable;
-    public int bounces;
-    public bool connected;
-    private Transform player;
+    public bool Bouncable;
+    public int Bounces;
+    public bool Connected;
+    private Transform Player;
+    public bool IsTurret;
+    public Transform TurretAmmo;
+    public float TimeToDestroy;
 	// Use this for initialization
 	void Start () {
         Direction = (_FacingRight) ? 1 : -1;
-        if(connected) {
-            player = GameObject.FindGameObjectWithTag("Player").transform;
-            GetComponent<SpringJoint2D>().connectedBody = player.GetComponent<Rigidbody2D>();
+        if(Connected) {
+            Player = GameObject.FindGameObjectWithTag("Player").transform;
+            GetComponent<SpringJoint2D>().connectedBody = Player.GetComponent<Rigidbody2D>();
         }
         rigidbody2D.velocity = transform.right*projectilespeed*Direction;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+        TimeToDestroy-=Time.deltaTime;
+        if(TimeToDestroy<=0){
+            Destroy (gameObject);
+        }
 	}
 
 
@@ -41,30 +47,22 @@ public class Projectile : MonoBehaviour {
                 Destroy (gameObject);
             }
         }
-        if(col.gameObject.CompareTag("Projectile")) {
-            if(!bouncable) {
+        if(col.gameObject.CompareTag("Ground")) {
+            if(!Bouncable&&!IsTurret) {
                 Destroy (gameObject);
-            } else {
-                bounces--;
-                if (bounces>=0) {
-                    rigidbody2D.velocity = new Vector2(Random.Range(-20,20),Random.Range (-40,40));
+            } 
+            if (Bouncable) {
+                Bounces--;
+                if (Bounces>=0) {
+                   // rigidbody2D.velocity = new Vector2(Random.Range(-20,20),Random.Range (-40,40));
                 } else {
                     Destroy (gameObject);
                 }
+            }
+            if (IsTurret) {
+                ActivateTurret(gameObject.transform.localPosition);
             }
         }
-        if(col.gameObject.CompareTag("Ground")) {
-                if(!bouncable) {
-                    Destroy (gameObject);
-                } else {
-                    bounces--;
-                    if (bounces>=0) {
-                        rigidbody2D.velocity = new Vector2(Random.Range(-20,20),Random.Range (-40,40));
-                    } else {
-                        Destroy (gameObject);
-                    }
-                }
-            }
     }
 
     public void SetFacingRight (bool FacingRight) {
@@ -73,6 +71,10 @@ public class Projectile : MonoBehaviour {
 
     public void SetOwnerTag (string ownertag) {
         _ownertag = ownertag;
+    }
+
+    private void ActivateTurret(Vector3 Shotposition) {
+        Rigidbody2D turretInstance = Instantiate(TurretAmmo, Shotposition, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
     }
 
 }

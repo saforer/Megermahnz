@@ -41,11 +41,17 @@ public class PlayerController : MonoBehaviour {
             jumped = false;
 			SendMessage ("StopJump");
 		}
-		if(Input.GetKeyDown (KeyCode.X)) {
+		if(Input.GetKey (KeyCode.X)) {
 			ShootingTimer=ShootingCount;
 			anim.SetBool ("Shooting",true);
 			SendMessage ("Shoot",FacingRight);
 		}
+        if(Input.GetKey(KeyCode.UpArrow)){
+            SendMessage ("Climb",1);
+        }
+        if(Input.GetKey(KeyCode.DownArrow)){
+            SendMessage ("Climb",-1);
+        }
 	}
 	private void AnimationUpdate() {
         ShootingTimer--;

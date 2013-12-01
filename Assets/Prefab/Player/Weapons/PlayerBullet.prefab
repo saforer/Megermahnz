@@ -69,8 +69,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilespeed: 20
   Damage: 1
-  bouncable: 0
-  bounces: 0
+  Bouncable: 0
+  Bounces: 0
+  Connected: 0
+  IsTurret: 0
+  TurretAmmo: {fileID: 0}
+  TimeToDestroy: 10
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
