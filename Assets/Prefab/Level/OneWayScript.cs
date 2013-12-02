@@ -17,14 +17,11 @@ public class OneWayScript : MonoBehaviour {
        PlayerAbove = (Player.position.y > GetComponent<Transform>().localPosition.y);
        OnLadder = Player.GetComponent<LadderClimb>().OnLadder;
 
-	   if(PlayerAbove) {
-            if (!OnLadder) {
-                Debug.Log ("Playerabove, not on ladder");
+	   if(PlayerAbove && !OnLadder) {
             GetComponent<BoxCollider2D>().enabled = true;
-            } else {
-                GetComponent<BoxCollider2D>().enabled = false;
-            }
         } else {
+            Debug.Log (PlayerAbove);
+            Debug.Log (!OnLadder);
             GetComponent<BoxCollider2D>().enabled = false;
         }
 	}
