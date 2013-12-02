@@ -207,6 +207,19 @@
                  "width":16,
                  "x":80,
                  "y":112
+                }, 
+                {
+                 "height":16,
+                 "name":"Oneway",
+                 "properties":
+                    {
+
+                    },
+                 "type":"ONEWAY",
+                 "visible":true,
+                 "width":16,
+                 "x":80,
+                 "y":128
                 }],
          "opacity":1,
          "type":"objectgroup",

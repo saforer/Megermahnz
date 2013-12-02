@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Level : MonoBehaviour {
+    public BoxCollider2D OneWayObject;
     public int _roomWidth;
     public int _roomHeight;
     public int _tileSize;
@@ -13,41 +14,41 @@ public class Level : MonoBehaviour {
     public string roomFile;
     public TextAsset dataAsset;
     public List<BoxCollider2D> collisionBoxList = new List<BoxCollider2D>();
-
-	// Use this for initialization
-	void Start () {
-	    //TextAsset dataAsset = (TextAsset) Resources.Load (roomFile, typeof(TextAsset));
-
+    
+    // Use this for initialization
+    void Start () {
+        //TextAsset dataAsset = (TextAsset) Resources.Load (roomFile, typeof(TextAsset));
+        
         if(!dataAsset) Debug.Log ("No room file!");
-
+        
         Dictionary<string,object> hash = dataAsset.text.dictionaryFromJson();
-
+        
         _roomWidth = int.Parse(hash["width"].ToString());
         _roomHeight = int.Parse(hash["height"].ToString());
         _tileSize = int.Parse(hash["tilewidth"].ToString());
-
+        
         string[] pathSplit = roomFile.Split(new char[] {'/'});
         roomName = pathSplit[pathSplit.Length -1];
-
+        
         List<object> layersList = (List<object>)hash["layers"];
         
         for (int i=0; i < layersList.Count; i++)
         {
-
+            
             Dictionary<string,object> layerHash = (Dictionary<string,object>)layersList[i];
-
-
+            
+            
             if (layerHash["name"].ToString().Equals("Object Layer"))
             {
-
+                
                 // Load object data if it exists...
                 List<object> objectList = (List<object>)layerHash["objects"];
-
+                
                 for (int j=0; j < objectList.Count; j++)
                 {
-
+                    
                     Dictionary<string,object> objHash = (Dictionary<string,object>)objectList[j];
-
+                    
                     if (objHash["type"].ToString().ToUpper().Equals("COLLISION"))
                     {
                         //CollisionBox _cbox = new CollisionBox();
@@ -76,7 +77,7 @@ public class Level : MonoBehaviour {
                         _cbox.layer=10;
                         _cbox.tag="Ground";
                     }
-
+                    
                     if (objHash["type"].ToString().ToUpper().Equals("LADDER"))
                     {
                         GameObject _cbox = new GameObject(objHash["name"].ToString());
@@ -96,11 +97,17 @@ public class Level : MonoBehaviour {
                         _cbox.layer=11;
                         _cbox.tag="Ladder";
                     }
+
+                    if (objHash["type"].ToString().ToUpper().Equals("ONEWAY"))
+                    {
+                        Vector3 onewaylocation = new Vector3(int.Parse(objHash["x"].ToString()),-int.Parse(objHash["y"].ToString()),0)*(1.0f/16.0f);
+                        Rigidbody2D bulletInstance = Instantiate(OneWayObject, onewaylocation, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
+                    }
                 }
             }
         }
     }
-
+    
     public int GetRoomHeight()
     {
         return _roomHeight * _tileSize;
@@ -110,5 +117,5 @@ public class Level : MonoBehaviour {
     {
         return _roomWidth * _tileSize;
     }
-
+    
 }

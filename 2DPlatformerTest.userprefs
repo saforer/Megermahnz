@@ -1,12 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Movement\LadderClimb.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefab\Level\OneWayScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player Only\PlayerController.cs" Line="50" Column="1" />
-      <File FileName="Assets\Scripts\Movement\Movement.cs" Line="34" Column="78" />
+      <File FileName="Assets\Prefab\Level\OneWayScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Movement\LadderClimb.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Only\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Movement\Movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Camera\Camera.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Movement\LadderClimb.cs" Line="21" Column="31" />
-      <File FileName="Assets\Scripts\Level.cs" Line="105" Column="45" />
+      <File FileName="Assets\Scripts\Prefab\Projectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Prefab\Gun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Level.cs" Line="1" Column="1" />
+      <File FileName="Assets\Prefab\Level\OneWayScript.cs" Line="14" Column="27" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.Debugger.WatchPad">

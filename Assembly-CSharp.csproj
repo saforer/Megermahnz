@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Prefab\Enemy\EnemyScripts\DrillAI.cs" />
      <Compile Include="Assets\Prefab\Enemy\EnemyScripts\SealAI.cs" />
+     <Compile Include="Assets\Prefab\Level\OneWayScript.cs" />
      <Compile Include="Assets\Scripts\Camera\Camera.cs" />
      <Compile Include="Assets\Scripts\Level.cs" />
      <Compile Include="Assets\Scripts\Movement\Jump.cs" />
