@@ -187,12 +187,56 @@
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
+   <tile gid="106"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="107"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="36"/>
+   <tile gid="37"/>
+   <tile gid="36"/>
+   <tile gid="37"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="63"/>
+   <tile gid="64"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="36"/>
+   <tile gid="37"/>
+   <tile gid="36"/>
+   <tile gid="37"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="114"/>
+   <tile gid="71"/>
+   <tile gid="72"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
@@ -214,29 +258,7 @@
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="36"/>
-   <tile gid="37"/>
-   <tile gid="36"/>
-   <tile gid="37"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
+   <tile gid="77"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
@@ -258,29 +280,7 @@
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="36"/>
-   <tile gid="37"/>
-   <tile gid="36"/>
-   <tile gid="37"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
-   <tile gid="114"/>
+   <tile gid="77"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
@@ -302,7 +302,7 @@
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
-   <tile gid="114"/>
+   <tile gid="77"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
@@ -324,7 +324,7 @@
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
-   <tile gid="114"/>
+   <tile gid="77"/>
    <tile gid="114"/>
    <tile gid="114"/>
    <tile gid="114"/>
@@ -641,7 +641,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="53"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -663,7 +663,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="53"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -685,7 +685,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="53"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -707,7 +707,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="53"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -729,7 +729,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="53"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -751,7 +751,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="53"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -935,7 +935,7 @@
    <tile gid="0"/>
   </data>
  </layer>
- <objectgroup name="Object Layer" width="22" height="21">
+ <objectgroup name="Object Layer" width="22" height="21" visible="0">
   <object name="ground" type="COLLISION" x="160" y="240" width="32" height="96"/>
   <object name="ground" type="COLLISION" x="192" y="256" width="32" height="80"/>
   <object name="ground" type="COLLISION" x="256" y="272" width="32" height="64"/>
@@ -951,5 +951,8 @@
   <object name="ground" type="COLLISION" x="32" y="240" width="32" height="96"/>
   <object name="laddertest" type="LADDER" x="80" y="112" width="16" height="96"/>
   <object name="Oneway" type="ONEWAY" x="80" y="128" width="16" height="16"/>
+  <object name="ladder" type="LADDER" x="256" y="112" width="16" height="96"/>
+  <object name="oneway" type="ONEWAY" x="256" y="128" width="16" height="16"/>
+  <object name="ground" type="COLLISION" x="96" y="128" width="160" height="16"/>
  </objectgroup>
 </map>

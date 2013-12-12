@@ -82,11 +82,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d74a7df2e3ad8cf48a85ea278abf4d22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ownertag: 
   projectilespeed: 20
-  FacingRight: 0
-  Direction: 0
   Damage: 2
+  Bouncable: 0
+  Bounces: 0
+  Connected: 0
+  IsTurret: 0
+  TurretAmmo: {fileID: 0}
+  TimeToDestroy: 20
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

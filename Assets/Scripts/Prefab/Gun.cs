@@ -5,8 +5,6 @@ public class Gun : MonoBehaviour {
 
 	public Rigidbody2D Ammunition;
 	public Transform GunObject;
-    public int Multi;
-    public bool split;
 	// Use this for initialization
 	void Start () {
 

@@ -168,7 +168,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1.3125, y: 1.5}
+  m_Size: {x: 1, y: 1.5}
   m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
@@ -197,8 +197,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ammunition: {fileID: 5000000, guid: f5fa142f59b07e4428962066ff6c9c03, type: 2}
   GunObject: {fileID: 400000}
-  Multi: 1
-  split: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -267,10 +265,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5e392c5e1d7479b658cb8cd3ec6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 5
   OverLadder: 0
   OnLadder: 0
   centerx: 0
+  anim: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

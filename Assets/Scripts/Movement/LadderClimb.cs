@@ -40,7 +40,7 @@ public class LadderClimb : MonoBehaviour {
     void Climb (int Direction) {
         if (OverLadder) {
             OnLadder=true;
-            anim.SetBool ("OnLadder",true);
+            anim.SetBool ("OnLadderAnim",true);
             transform.position = new Vector3(centerx,transform.position.y,0);
             rigidbody2D.velocity=new Vector3(0f,0f,0f);
             rigidbody2D.gravityScale=0;

@@ -16,8 +16,12 @@ public class SealAI : MonoBehaviour {
         ShootingTimer--;
         if (ShootingTimer <= 0) {
             ShootingTimer=ShootingCount;
-            anim.SetTrigger("SealShooting");
+            anim.SetBool("SealShooting",true);
             SendMessage ("Shoot");
+        }
+
+        if (ShootingTimer <= 300) {
+            anim.SetBool ("SealShooting",false);
         }
 	}
 
