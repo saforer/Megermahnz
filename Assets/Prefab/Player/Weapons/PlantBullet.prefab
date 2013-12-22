@@ -12,8 +12,9 @@ GameObject:
   - 114: {fileID: 11400000}
   - 50: {fileID: 5000000}
   - 58: {fileID: 5800000}
+  - 231: {fileID: 23100000}
   m_Layer: 0
-  m_Name: PlayerBullet
+  m_Name: PlantBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +69,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRight: 1
-  isAttached: 0
+  isAttached: 1
+  bounces: 2
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -90,8 +92,22 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300004, guid: 37889baed91ccd94f9a61038c9e9e88f, type: 3}
+  m_Sprite: {fileID: 21300118, guid: 37889baed91ccd94f9a61038c9e9e88f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!231 &23100000
+SpringJoint2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CollideConnected: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_Distance: 1.5
+  m_DampingRatio: 0
+  m_Frequency: 10
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

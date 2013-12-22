@@ -1,30 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefab\Level\OneWayScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs">
     <Files>
-      <File FileName="Assets\Prefab\Level\OneWayScript.cs" Line="12" Column="9" />
-      <File FileName="Assets\Prefab\Level\OneWayScript.cs" Line="12" Column="28" />
-      <File FileName="Assets\Scripts\Movement\LadderClimb.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player Only\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Movement\Movement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Camera\Camera.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Prefab\Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Prefab\Gun.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Level.cs" Line="1" Column="1" />
-      <File FileName="Assets\Prefab\Enemy\EnemyScripts\SealAI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Only\Player.cs" Line="127" Column="80" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs" Line="37" Column="1" />
+      <File FileName="Assets\Prefab\Level\OneWayScript.cs" Line="25" Column="63" />
+      <File FileName="Assets\Scripts\Level.cs" Line="101" Column="156" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Assets\Scripts\Level.cs" line="53" offsetX="598" offsetY="832" expression="_cbox" liveUpdate="False" />
-    <Watch file="Assets\Scripts\Level.cs" line="68" offsetX="614" offsetY="1072" expression="_cboxcenter" liveUpdate="False" />
-    <Watch file="Assets\Scripts\Level.cs" line="68" offsetX="614" offsetY="1072" expression="_cboxsize" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

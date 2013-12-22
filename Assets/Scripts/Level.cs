@@ -53,7 +53,6 @@ public class Level : MonoBehaviour {
                     {
                         //CollisionBox _cbox = new CollisionBox();
                         GameObject _cbox = new GameObject(objHash["name"].ToString());
-                        _cbox.transform.localScale = new Vector3(1.0f/16.0f,1.0f/16.0f,0);
                         var coll = _cbox.AddComponent("BoxCollider2D") as BoxCollider2D;
                         //_cbox.name = objHash["name"].ToString();
                         //Debug.Log (objHash["name"].ToString());
@@ -65,9 +64,9 @@ public class Level : MonoBehaviour {
                         //_cbox.box.y = -(int.Parse(objHash["y"].ToString()) - (GetRoomHeight() / 2));
                         _cboxcenter.y = int.Parse(objHash["y"].ToString()) - (GetRoomWidth() / 2);
                         //_cbox.box.width = int.Parse(objHash["width"].ToString());
-                        _cboxsize.x = int.Parse(objHash["width"].ToString());
+                        _cboxsize.x = int.Parse(objHash["width"].ToString()) * 0.0625f ;
                         //_cbox.box.height = int.Parse(objHash["height"].ToString());
-                        _cboxsize.y = int.Parse(objHash["height"].ToString());
+                        _cboxsize.y = int.Parse(objHash["height"].ToString()) * 0.0625f;
                         //_cbox.box.y = _cbox.box.y - _cbox.box.height;
                         _cboxcenter.y = _cboxcenter.y - _cboxsize.y;
                         coll.size = _cboxsize;
@@ -81,14 +80,13 @@ public class Level : MonoBehaviour {
                     if (objHash["type"].ToString().ToUpper().Equals("LADDER"))
                     {
                         GameObject _cbox = new GameObject(objHash["name"].ToString());
-                        _cbox.transform.localScale = new Vector3(1.0f/16.0f,1.0f/16.0f,0);
                         var coll = _cbox.AddComponent("BoxCollider2D") as BoxCollider2D;
                         Vector3 _cboxcenter = new Vector3(0,0,0);
                         Vector3 _cboxsize = new Vector3(0,0,0);
                         _cboxcenter.x = int.Parse(objHash["x"].ToString()) - (GetRoomWidth() / 2);
                         _cboxcenter.y = int.Parse(objHash["y"].ToString()) - (GetRoomWidth() / 2);
-                        _cboxsize.x = int.Parse(objHash["width"].ToString());
-                        _cboxsize.y = int.Parse(objHash["height"].ToString());
+                        _cboxsize.x = int.Parse(objHash["width"].ToString()) * 0.0625f ;
+                        _cboxsize.y = int.Parse(objHash["height"].ToString()) * 0.0625f ;
                         _cboxcenter.y = _cboxcenter.y - _cboxsize.y;
                         coll.size = _cboxsize;
                         _cbox.transform.position = new Vector3(int.Parse(objHash["x"].ToString()),-int.Parse(objHash["y"].ToString()),0)*(1.0f/16.0f);
@@ -100,8 +98,8 @@ public class Level : MonoBehaviour {
 
                     if (objHash["type"].ToString().ToUpper().Equals("ONEWAY"))
                     {
-                        Vector3 onewaylocation = new Vector3(int.Parse(objHash["x"].ToString()),-int.Parse(objHash["y"].ToString()),0)*(1.0f/16.0f);
-                        Rigidbody2D bulletInstance = Instantiate(OneWayObject, onewaylocation, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
+                        Vector3 onewaylocation = new Vector3((int.Parse(objHash["x"].ToString()) * 0.0625f),(-int.Parse(objHash["y"].ToString()) * 0.0625f),0);
+                        Rigidbody2D oneWayInstance = Instantiate(OneWayObject, onewaylocation, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
                     }
                 }
             }
