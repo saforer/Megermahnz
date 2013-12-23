@@ -46,11 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Prefab\Level\OneWayScript.cs" />
      <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs" />
      <Compile Include="Assets\Scripts\Camera\Camera.cs" />
      <Compile Include="Assets\Scripts\Level.cs" />
      <Compile Include="Assets\Scripts\Player Only\Player.cs" />
+     <Compile Include="Assets\Scripts\Prefab\KillBox.cs" />
+     <Compile Include="Assets\Scripts\Prefab\OneWayScript.cs" />
+     <None Include="Assets\Sprites\Levels\Level1\DemoLevel.txt" />
      <None Include="Assets\Sprites\Levels\Level1\Level1.txt" />
      <None Include="Assets\Sprites\Levels\Demolevel\Demo.txt" />
   </ItemGroup>

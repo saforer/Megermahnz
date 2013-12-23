@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Level : MonoBehaviour {
+    public GameObject killObject;
     public BoxCollider2D OneWayObject;
     public int _roomWidth;
     public int _roomHeight;
@@ -94,6 +95,24 @@ public class Level : MonoBehaviour {
                         coll.isTrigger=true;
                         _cbox.layer=11;
                         _cbox.tag="Ladder";
+                    }
+
+                    if (objHash["type"].ToString().ToUpper().Equals("KILL"))
+                    {
+                        Vector3 killLocation = new Vector3((int.Parse(objHash["x"].ToString()) * 0.0625f),(-int.Parse(objHash["y"].ToString()) * 0.0625f),0);
+                        GameObject _cbox = Instantiate(killObject, killLocation, Quaternion.identity) as GameObject;
+                        Vector3 _cboxcenter = new Vector3(0,0,0);
+                        Vector3 _cboxsize = new Vector3(0,0,0);
+                        _cboxcenter.x = int.Parse(objHash["x"].ToString()) - (GetRoomWidth() / 2);
+                        _cboxcenter.y = int.Parse(objHash["y"].ToString()) - (GetRoomWidth() / 2);
+                        _cboxsize.x = int.Parse(objHash["width"].ToString()) * 0.0625f ;
+                        _cboxsize.y = int.Parse(objHash["height"].ToString()) * 0.0625f ;
+                        _cboxcenter.y = _cboxcenter.y - _cboxsize.y;
+                        _cbox.GetComponent<BoxCollider2D>().size = _cboxsize;
+                        _cbox.transform.position = new Vector3(int.Parse(objHash["x"].ToString()),-int.Parse(objHash["y"].ToString()),0)*(1.0f/16.0f);
+                        _cbox.GetComponent<BoxCollider2D>().center = new Vector3(_cbox.GetComponent<BoxCollider2D>().size.x/2, -1*(_cbox.GetComponent<BoxCollider2D>().size.y/2),0);
+                        _cbox.GetComponent<BoxCollider2D>().isTrigger=true;
+                        _cbox.tag="Kill";
                     }
 
                     if (objHash["type"].ToString().ToUpper().Equals("ONEWAY"))

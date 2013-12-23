@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Camera\Camera.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player Only\Player.cs" Line="127" Column="80" />
-      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs" Line="37" Column="1" />
-      <File FileName="Assets\Prefab\Level\OneWayScript.cs" Line="25" Column="63" />
-      <File FileName="Assets\Scripts\Level.cs" Line="101" Column="156" />
+      <File FileName="Assets\Scripts\Level.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player Only\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Prefab\KillBox.cs" Line="17" Column="36" />
+      <File FileName="Assets\Scripts\Camera\Camera.cs" Line="27" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

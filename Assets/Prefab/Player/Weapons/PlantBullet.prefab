@@ -70,7 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRight: 1
   isAttached: 1
-  bounces: 2
+  bounces: 5
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

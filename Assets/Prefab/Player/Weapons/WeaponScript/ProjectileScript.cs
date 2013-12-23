@@ -7,9 +7,11 @@ public class ProjectileScript : MonoBehaviour {
     public bool isAttached;
     private GameObject playerObject;
     public int bounces = 2;
+    public int hitPoints;
     // Use this for initialization
     void Start () {
         if (isAttached) {
+            hitPoints = 3;
             playerObject = GameObject.FindGameObjectWithTag("Player");
             GetComponent<SpringJoint2D>().connectedBody = playerObject.GetComponent<Rigidbody2D>();
         }
@@ -46,6 +48,14 @@ public class ProjectileScript : MonoBehaviour {
             if (bounces<=0) {
                 Destroy (gameObject);
             }
+        }
+    }
+
+    void KillBox () {
+        if (hitPoints>0) {
+            hitPoints--;
+        } else {
+            Destroy(gameObject);
         }
     }
 }
