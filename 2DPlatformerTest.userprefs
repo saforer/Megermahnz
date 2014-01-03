@@ -1,12 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Camera\Camera.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player Only\Player.cs">
     <Files>
-      <File FileName="Assets\Scripts\Level.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player Only\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Prefab\KillBox.cs" Line="17" Column="36" />
-      <File FileName="Assets\Scripts\Camera\Camera.cs" Line="27" Column="1" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\Gun.cs" Line="114" Column="1" />
+      <File FileName="Assets\Scripts\Player Only\Player.cs" Line="57" Column="26" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\PlantBullet.cs" Line="13" Column="96" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\CommonProjectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleBullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleParticle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Level.cs" Line="118" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

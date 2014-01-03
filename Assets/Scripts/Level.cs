@@ -115,11 +115,7 @@ public class Level : MonoBehaviour {
                         _cbox.tag="Kill";
                     }
 
-                    if (objHash["type"].ToString().ToUpper().Equals("ONEWAY"))
-                    {
-                        Vector3 onewaylocation = new Vector3((int.Parse(objHash["x"].ToString()) * 0.0625f),(-int.Parse(objHash["y"].ToString()) * 0.0625f),0);
-                        Rigidbody2D oneWayInstance = Instantiate(OneWayObject, onewaylocation, Quaternion.Euler(new Vector3(0,0,0))) as Rigidbody2D;
-                    }
+
                 }
             }
         }

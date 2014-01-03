@@ -46,8 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\ProjectileScript.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleBullet.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleParticle.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\CommonProjectile.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\Gun.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\MagnetShot.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\MagnetTracer.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\PlantBullet.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\PlayerBullet.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\SandBullet.cs" />
      <Compile Include="Assets\Scripts\Camera\Camera.cs" />
+     <Compile Include="Assets\Scripts\Camera\UI.cs" />
      <Compile Include="Assets\Scripts\Level.cs" />
      <Compile Include="Assets\Scripts\Player Only\Player.cs" />
      <Compile Include="Assets\Scripts\Prefab\KillBox.cs" />

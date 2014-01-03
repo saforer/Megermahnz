@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: fc5016f1dd032ce4c8991f5e26711674
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - normalBullet: {instanceID: 0}
+  - sandCannon: {instanceID: 0}
+  - plantBullet: {instanceID: 0}
+  - magnetTracer: {instanceID: 0}
+  - blackHoleBullet: {fileID: 100000, guid: a4905ad42372bad4a85e43ee161777a7, type: 2}
+  executionOrder: 200
+  icon: {instanceID: 0}
+  userData: 
