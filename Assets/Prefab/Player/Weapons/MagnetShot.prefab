@@ -9,10 +9,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  - 50: {fileID: 5000000}
-  - 61: {fileID: 6100000}
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400002}
+  - 61: {fileID: 6100000}
+  - 50: {fileID: 5000000}
   m_Layer: 0
   m_Name: MagnetShot
   m_TagString: Untagged
@@ -37,12 +37,12 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 0
   m_FixedAngle: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -55,7 +55,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .439999998, y: .439999998}
+  m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -69,6 +69,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingRight: 0
+  rightVelocity: 0
+  upVelocity: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -80,7 +82,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874efca9a19fcec419c1cf21349ece50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armed: 0
+  playerObject: {fileID: 0}
+  timeToArmed: .125
+  setPos: {x: 0, y: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

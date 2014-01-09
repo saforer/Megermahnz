@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5E51B75F-8FF9-4C61-18EE-A7A800081A99}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <BaseDirectory>Assets</BaseDirectory>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5E51B75F-8FF9-4C61-18EE-A7A800081A99}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>True</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>False</Optimize>
-    <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>True</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="UnityEngine">
-      <HintPath>D:\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>D:\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml" />
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleBullet.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleParticle.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\CommonProjectile.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\Gun.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\MagnetShot.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\MagnetTracer.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\PlantBullet.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\PlayerBullet.cs" />
-    <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\SandBullet.cs" />
-    <Compile Include="Assets\Scripts\Camera\Camera.cs" />
-    <Compile Include="Assets\Scripts\Camera\UI.cs" />
-    <Compile Include="Assets\Scripts\Level.cs" />
-    <Compile Include="Assets\Scripts\Player Only\Player.cs" />
-    <Compile Include="Assets\Scripts\Prefab\KillBox.cs" />
-    <None Include="Assets\Sprites\Levels\Level1\DemoLevel.txt" />
-    <None Include="Assets\Sprites\Levels\Level1\Level1.txt" />
-    <None Include="Assets\Sprites\Levels\Demolevel\Demo.txt" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleBullet.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\BlackHoleParticle.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\CommonProjectile.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\Gun.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\MagnetShot.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\MagnetTracer.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\PlantBullet.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\PlayerBullet.cs" />
+     <Compile Include="Assets\Prefab\Player\Weapons\WeaponScript\SandBullet.cs" />
+     <Compile Include="Assets\Scripts\Camera\Camera.cs" />
+     <Compile Include="Assets\Scripts\Camera\UI.cs" />
+     <Compile Include="Assets\Scripts\Level.cs" />
+     <Compile Include="Assets\Scripts\Player Only\Player.cs" />
+     <Compile Include="Assets\Scripts\Prefab\KillBox.cs" />
+     <Compile Include="Assets\Scripts\Prefab\OneWayScript.cs" />
+     <None Include="Assets\Sprites\Levels\Level1\DemoLevel.txt" />
+     <None Include="Assets\Sprites\Levels\Level1\Level1.txt" />
+     <None Include="Assets\Sprites\Levels\Demolevel\Demo.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D39C4360-E15B-54A0-2A6F-814EE133723A}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
+      <Project>{D39C4360-E15B-54A0-2A6F-814EE133723A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -77,72 +77,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <MonoDevelop>
-      <Properties>
-        <Policies>
-          <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" />
-          <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" />
-          <CSharpFormattingPolicy IndentSwitchBody="True" ElseIfNewLinePlacement="SameLine" AfterDelegateDeclarationParameterComma="True" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
-          <NameConventionPolicy>
-            <Rules>
-              <NamingRule Name="Namespaces" AffectedEntity="Namespace" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Types" AffectedEntity="Class, Struct, Enum, Delegate" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Interfaces" AffectedEntity="Interface" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
-                <RequiredPrefixes>
-                  <String>I</String>
-                </RequiredPrefixes>
-              </NamingRule>
-              <NamingRule Name="Attributes" AffectedEntity="CustomAttributes" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
-                <RequiredSuffixes>
-                  <String>Attribute</String>
-                </RequiredSuffixes>
-              </NamingRule>
-              <NamingRule Name="Event Arguments" AffectedEntity="CustomEventArgs" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
-                <RequiredSuffixes>
-                  <String>EventArgs</String>
-                </RequiredSuffixes>
-              </NamingRule>
-              <NamingRule Name="Exceptions" AffectedEntity="CustomExceptions" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
-                <RequiredSuffixes>
-                  <String>Exception</String>
-                </RequiredSuffixes>
-              </NamingRule>
-              <NamingRule Name="Methods" AffectedEntity="Methods" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Static Readonly Fields" AffectedEntity="ReadonlyField" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="False" IncludeStaticEntities="True" />
-              <NamingRule Name="Fields (Non Private)" AffectedEntity="Field" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="ReadOnly Fields (Non Private)" AffectedEntity="ReadonlyField" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="False" />
-              <NamingRule Name="Fields (Private)" AffectedEntity="Field, ReadonlyField" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="False">
-                <AllowedPrefixes>
-                  <String>_</String>
-                  <String>m_</String>
-                </AllowedPrefixes>
-              </NamingRule>
-              <NamingRule Name="Static Fields (Private)" AffectedEntity="Field" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="False" IncludeStaticEntities="True" />
-              <NamingRule Name="ReadOnly Fields (Private)" AffectedEntity="ReadonlyField" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="False">
-                <AllowedPrefixes>
-                  <String>_</String>
-                  <String>m_</String>
-                </AllowedPrefixes>
-              </NamingRule>
-              <NamingRule Name="Constant Fields" AffectedEntity="ConstantField" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Properties" AffectedEntity="Property" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Events" AffectedEntity="Event" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Enum Members" AffectedEntity="EnumMember" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Parameters" AffectedEntity="Parameter" VisibilityMask="VisibilityMask" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
-              <NamingRule Name="Type Parameters" AffectedEntity="TypeParameter" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
-                <RequiredPrefixes>
-                  <String>T</String>
-                </RequiredPrefixes>
-              </NamingRule>
-            </Rules>
-          </NameConventionPolicy>
-          <VersionControlPolicy inheritsSet="Mono" />
-          <ChangeLogPolicy inheritsSet="Mono" />
-          <TextStylePolicy inheritsSet="null" scope="application/xml" />
-          <TextStylePolicy FileWidth="120" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
-        </Policies>
-      </Properties>
-    </MonoDevelop>
-  </ProjectExtensions>
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /><XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" /><CSharpFormattingPolicy IndentSwitchBody="True" ElseIfNewLinePlacement="SameLine" AfterDelegateDeclarationParameterComma="True" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" /><NameConventionPolicy><Rules><NamingRule Name="Namespaces" AffectedEntity="Namespace" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Types" AffectedEntity="Class, Struct, Enum, Delegate" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Interfaces" AffectedEntity="Interface" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True"><RequiredPrefixes><String>I</String></RequiredPrefixes></NamingRule><NamingRule Name="Attributes" AffectedEntity="CustomAttributes" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True"><RequiredSuffixes><String>Attribute</String></RequiredSuffixes></NamingRule><NamingRule Name="Event Arguments" AffectedEntity="CustomEventArgs" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True"><RequiredSuffixes><String>EventArgs</String></RequiredSuffixes></NamingRule><NamingRule Name="Exceptions" AffectedEntity="CustomExceptions" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True"><RequiredSuffixes><String>Exception</String></RequiredSuffixes></NamingRule><NamingRule Name="Methods" AffectedEntity="Methods" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Static Readonly Fields" AffectedEntity="ReadonlyField" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="False" IncludeStaticEntities="True" /><NamingRule Name="Fields (Non Private)" AffectedEntity="Field" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="ReadOnly Fields (Non Private)" AffectedEntity="ReadonlyField" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="False" /><NamingRule Name="Fields (Private)" AffectedEntity="Field, ReadonlyField" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="False"><AllowedPrefixes><String>_</String><String>m_</String></AllowedPrefixes></NamingRule><NamingRule Name="Static Fields (Private)" AffectedEntity="Field" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="False" IncludeStaticEntities="True" /><NamingRule Name="ReadOnly Fields (Private)" AffectedEntity="ReadonlyField" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="False"><AllowedPrefixes><String>_</String><String>m_</String></AllowedPrefixes></NamingRule><NamingRule Name="Constant Fields" AffectedEntity="ConstantField" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Properties" AffectedEntity="Property" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Events" AffectedEntity="Event" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Enum Members" AffectedEntity="EnumMember" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Parameters" AffectedEntity="Parameter" VisibilityMask="VisibilityMask" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" /><NamingRule Name="Type Parameters" AffectedEntity="TypeParameter" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True"><RequiredPrefixes><String>T</String></RequiredPrefixes></NamingRule></Rules></NameConventionPolicy><VersionControlPolicy inheritsSet="Mono" /><ChangeLogPolicy inheritsSet="Mono" /><TextStylePolicy inheritsSet="null" scope="application/xml" /><TextStylePolicy FileWidth="120" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
 </Project>

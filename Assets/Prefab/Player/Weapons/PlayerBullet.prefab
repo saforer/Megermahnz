@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   facingRight: 0
-  rightVelocity: 20
+  rightVelocity: 30
   upVelocity: 0
 --- !u!114 &11400002
 MonoBehaviour:

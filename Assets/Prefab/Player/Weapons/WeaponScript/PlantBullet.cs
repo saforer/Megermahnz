@@ -16,6 +16,9 @@ public class PlantBullet : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKeyDown (KeyCode.X)) {
+            Destroy(gameObject);
+        }
         if(Input.GetKeyDown(KeyCode.LeftArrow)) {
             rigidbody2D.AddForce(new Vector2(-2000,0));
             bounces--;

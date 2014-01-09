@@ -4,6 +4,7 @@ using System.Collections;
 public class BlackHoleBullet : MonoBehaviour {
     public GameObject bullet;
     public float countdown = 5.0f;
+    [HideInInspector]
     public Vector3 shootPosition;
 
 	// Use this for initialization

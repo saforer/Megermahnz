@@ -1,5 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 20: {fileID: 2000000}
+  - 124: {fileID: 12400000}
+  - 92: {fileID: 9200000}
+  - 81: {fileID: 8100000}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
@@ -21,6 +40,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400004}
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 1
@@ -28,10 +58,40 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.04804873, y: -13.482173, z: -1.5}
+  m_LocalPosition: {x: 3.99003148, y: -20.0799618, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 400000}
   m_Father: {fileID: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 10
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_HDR: 0
+  m_OcclusionCulling: 1
 --- !u!50 &5000000
 Rigidbody2D:
   m_ObjectHideFlags: 1
@@ -41,7 +101,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -58,6 +118,20 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1.5}
   m_Center: {x: 0, y: 0}
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!92 &9200000
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -83,8 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c26d3af97f5bfb243a9197a2398c76b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpPower: 350
+  moveSpeed: .150000006
+  jumpPower: 17
   gunPosition: {x: .628000021, y: 0}
   facingRight: 0
   jumped: 0
@@ -93,19 +167,26 @@ MonoBehaviour:
   grounded: 0
   inAir: 0
   centerx: 0
-  leftOffset: -.5
-  middleOffset: 0
-  rightOffset: .5
+  leftOffset: .340000004
   feetOffset: -.800000012
   leftGroundCenter: {x: 0, y: 0}
+  leftHalfGroundCenter: {x: 0, y: 0}
   middleGroundCenter: {x: 0, y: 0}
+  rightHalfGroundCenter: {x: 0, y: 0}
   rightGroundCenter: {x: 0, y: 0}
   leftGroundCheck: {x: 0, y: 0}
+  leftHalfGroundCheck: {x: 0, y: 0}
   middleGroundCheck: {x: 0, y: 0}
+  rightHalfGroundCheck: {x: 0, y: 0}
   rightGroundCheck: {x: 0, y: 0}
   leftGrounded: 0
+  leftHalfGrounded: 0
   middleGrounded: 0
+  rightHalfGrounded: 0
   rightGrounded: 0
+  leftWalkOffset: -.699999988
+  leftBlocked: 0
+  rightBlocked: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -124,6 +205,13 @@ MonoBehaviour:
   plantBullet: {fileID: 100000, guid: e5531a0777896be499701105e4cd9c83, type: 2}
   magnetTracer: {fileID: 100000, guid: ab4eef8b13d668c48a1fd83bacbd7c45, type: 2}
   blackHoleBullet: {fileID: 100000, guid: a4905ad42372bad4a85e43ee161777a7, type: 2}
+--- !u!124 &12400000
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
